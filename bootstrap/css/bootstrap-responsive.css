@@ -78,6 +78,7 @@
 .wrapperAll{
   background-color: #7C8081;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .formChoose{
@@ -97,6 +98,26 @@
   font-size: 15px;
   padding-right: auto;
   padding-left: auto;
+}
+
+.fondoFooter{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  padding-bottom: 40px;
+  background-image: linear-gradient(bottom, rgb(45,47,48) 0%, rgb(0,0,0) 75%);
+  background-image: -o-linear-gradient(bottom, rgb(45,47,48) 0%, rgb(0,0,0) 75%);
+  background-image: -moz-linear-gradient(bottom, rgb(45,47,48) 0%, rgb(0,0,0) 75%);
+  background-image: -webkit-linear-gradient(bottom, rgb(45,47,48) 0%, rgb(0,0,0) 75%);
+  background-image: -ms-linear-gradient(bottom, rgb(45,47,48) 0%, rgb(0,0,0) 75%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(45,47,48)),
+    color-stop(0.75, rgb(0,0,0))
+  );
 }
 
 @media (max-width: 767px) {

@@ -108,16 +108,28 @@
         </div>
       </div>
       </div> <!-- Fin del cuerpo medio del sitio -->
-      <div class="footer">
+      <div class="fondoFooter"> <!-- Inicio del Footer -->
         <div class="row-fluid">
-          <div class="span4">
-            Primer Columna
+          <div class="span2">
           </div>
-          <div class="span4">
-            Segunda columna
+          <div class="span3">
+              <strong>Learn About Us</strong><br>
+              <a href="#">About</a><br>
+              <a href="#">Contact</a><br>  
           </div>
-          <div class="span4">
-            Tecer Columna
+          <div class="span3">
+              <strong>Using Wiredtab</strong><br>
+              <a href="#">Terms of Service</a><br>
+              <a href="#">Privacy Policy</a><br>
+          </div>
+          <div class="span3">
+              <strong>Languages</strong>
+            <form id="frmLanguages" name="frmLanguages" action="#" method="post">
+              <select class="span5">
+                <option value="1">Español</option>
+                <option value="2">English</option>
+              </select>
+            </form>
           </div>
         </div>
       </div>
