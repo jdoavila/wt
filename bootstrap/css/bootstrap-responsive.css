@@ -120,6 +120,43 @@
   );
 }
 
+.imgAvatar{
+  display: inline-block;
+  text-align: center;
+}
+
+.imgAvatar img{
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.cuadro{
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.infoExif{
+  font-family: Helvetica, Arial;
+  font-size: 10px;
+  color: gray;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-bottom: 8px;
+}
+.infoExifB{
+  font-family: Helvetica, Arial;
+  font-size: 10px;
+  color: gray;
+  width: 100%;
+  padding-top: 5px;
+}
+
 @media (max-width: 767px) {
   .visible-phone {
     display: block;

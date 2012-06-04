@@ -59,14 +59,14 @@
         <div class="row-fluid">
           <div class="span6">
             <div class="formChoose">
-            <form class="form-inline">
-              <select class="span5">
-                <option value="1" selected>Choose Between</option>
-                <option value="2">Friend Posts</option>
-                <option value="3">Your Posts</option>
-                <option value="4">Both</option>
-              </select>
-            </form>
+              <form class="form-inline">
+                <select class="span5">
+                  <option value="1" selected>Choose Between</option>
+                  <option value="2">Friend Posts</option>
+                  <option value="3">Your Posts</option>
+                  <option value="4">Both</option>
+                </select>
+              </form>
           </div>
           </div>
           <div class="span6">
@@ -80,7 +80,31 @@
         </div>
         <div class="row-fluid">
           <div class="span9">
-            Textos
+            <div class="row-fluid">
+              <div class="span2">
+                <div class="imgAvatar">
+                  <a href="#"><img src="img/avatars/defWiredtab.jpg"></a>
+                  <a href="#">danielortiz</a>
+                </div>
+              </div>
+              <div class="span10">
+                <div class="well cuadro">
+                  <div class="infoExif">
+                    2012/04/01 14:16
+                  </div>
+                  <p>
+                    <strong>Trabajando en el nuevo proyecto de wiredtab.</strong><br>
+                    Desde hace algunos días vengo trabajando en este proyecto que he tenido un poco abandonado, a saber, wiredtab, al que he dedicado varias horas de mi vida para poder llevar a cabo escribiendo código hasta bien entrada la noche y con mucho esmero.<br>
+                    Espero que todos estos esfuerzos rindan frutos para poder hacer triunfar este proyecto que me ha emocionado tanto.<br>
+                    Nos leemos luego que siga escribiendo más código.
+                  </p>
+                  <div class="infoExifB">
+                    <a class="btn btn-info btn-mini" href="#"><i class="icon-comment icon-white"></i> Comments</a> &nbsp;
+                    <span class="badge badge-info">8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="span3">
             <div class="well" style="padding: 8px 0; margin-right: 10px">
@@ -124,7 +148,7 @@
           </div>
           <div class="span3">
               <strong>Languages</strong>
-            <form id="frmLanguages" name="frmLanguages" action="#" method="post">
+            <form id="frmLanguages" name="frmLanguages" action="procesar_cosa.php" method="post">
               <select class="span5">
                 <option value="1">Español</option>
                 <option value="2">English</option>
