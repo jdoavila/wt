@@ -1,15 +1,3 @@
-<?php
-if(isset($_SESSION)){
-  session_start();
-}
-include_once("conexion/conexion.php");
-
-mysql_select_db($dbWiredtab, $conWiredtab);
-$queryUserName = "SELECT * FROM Usuario WHERE IdUsuario  = '1'";
-$UserName = mysql_query($queryUserName, $conWiredtab) or die(mysql_error());
-$rowUserName = mysql_fetch_assoc($UserName);
-
-?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -43,7 +31,7 @@ $rowUserName = mysql_fetch_assoc($UserName);
       <div class="row-fluid">
           <div class="span12">
             <div class="login">
-              Welcome: <strong><?php echo $rowUserName["Nombre"]; ?></strong> <a class="btn btn-danger" href="#">Logout</a>
+              Welcome: <strong>DanielOrtiz</strong> <a class="btn btn-danger" href="#">Logout</a>
               </div>            
             <div class="row-fluid">
             <div class="span4">
